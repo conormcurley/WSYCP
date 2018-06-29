@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8”/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="What Suits You? is owned by Conor Curley and Michael Munnelly of 2018.">
+    <meta name="description" content="What Suits You? is a website containing a selection of carefully curated quizzes that help people choose a product that fits their needs. The person looking for a product enters the homepage, selects a quiz, and after a few short clicks will be presented a product that ‘Suits them’. ">
+    <meta name="keywords" content="quiz, quizzes, what suits, what suits you, What Suits You?, find a computer, find a pair of shoes, find an insurance package, find a phone, computers, phones, insurance, quizzes, what, quiz website">
+    <meta name="DC.title" content="What Suits You?">
+    <link rel="stylesheet" href="https://use.typekit.net/evz2pch.css">
+    <link rel="canonical" href="https://whatsuitsyou.ie" />
+    <link rel="icon" href="img/tablogo.png">
+    <link rel="shortcut icon" href="img/tablogo.png" type="image/x-icon">
+    <title>Home - WSYSCP</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/typed.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="scripts/jquery.visible.min.js"></script>
+    <script src="scripts/fullclip.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114335728-1"></script>
+    <script src="js/appear/jquery.appear.js">
+
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-114335728-1');
+    </script>
+
+        </script>
+  </head>
+
+
+
+  <body>
+
+    <div class="columns">
+      <div class="colone">
+        <div class="square squareone">
+          <img src="img/logo.svg" class="squareimage" alt="">
+        </div>
+        <div class="square squaretwo">
+          <i class="fas fa-home squareicon"></i>
+        </div>
+        <div class="square ">
+          <i class="fas fa-envelope squareicon"></i>
+        </div>
+      </div>
+      <div class="coltwo">
+        <div class="messagescontainer">
+          <h1 class="header">Messages</h1>
+          <div class="columns is-multiline messagecontainer">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAM7hcUt_6-PwQaXQ5RgEQroRQncRTYyVY",
+      authDomain: "what-suits-you.firebaseapp.com",
+      databaseURL: "https://what-suits-you.firebaseio.com",
+      projectId: "what-suits-you",
+      storageBucket: "what-suits-you.appspot.com",
+      messagingSenderId: "1041979605867"
+    };
+    firebase.initializeApp(config);
+    var db = firebase.firestore();
+    </script>
+    <script src="js/messages.js"></script>
+  </body>
+</html>

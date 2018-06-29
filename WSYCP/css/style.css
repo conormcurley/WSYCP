@@ -1,0 +1,113 @@
+body{
+  font-family: "proxima-soft",sans-serif;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+html,body{
+  margin:0 !important;
+}
+
+.colone{
+  margin-top: 12px;
+  margin-left: 12px;
+  width: 60px;
+  background: #4A5B6E;
+  height: 100vh;
+  float:left;
+}
+
+.coltwo{
+  width: calc(100% - 50px);
+  height:100vh;
+  float:left;
+}
+
+.square{
+  width:60px;
+  height:60px;
+  transition: 0.3s all;
+}
+
+.squareone{
+  background-color: rgba(0,0,0,0.1);
+}
+
+.squareimage{
+  width: 35px;
+  height:35px;
+  margin:12.5px;
+}
+
+.squaretwo{
+  background-color: rgba(255,255,255,0.1);
+}
+
+.squareicon{
+  font-size: 1.7rem;
+  margin: 18px 15px;
+  color: rgba(255,255,255,0.8);
+}
+
+.blueback{
+  background:#0296F4;
+}
+
+.header{
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.white{
+  color:white;
+}
+
+.counters{
+  padding:2rem 4rem;
+}
+
+.statcontainer{
+  width: 350px;
+  display: inline-block;
+  float: left;
+  margin-right: 5rem;
+}
+
+.margin1rembottom{
+  margin-bottom: 2rem !important;
+}
+
+.stattitle{
+  color: #fff;
+  opacity: 0.5;
+  font-size: 1.5rem;
+}
+
+.statnumber{
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.green{
+  color: #0BE881;
+  font-size: 1.4rem;
+  padding-top: 0.5rem;
+}
+
+.options{
+  width: 100%;
+}
+
+.square:hover{
+  background: rgba(255,255,255,0.05);
+}
+
+.messagescontainer{
+  padding:3rem;
+}
+
+.padded{
+  padding: 2rem;
+  border-radius: 25px;
+}
